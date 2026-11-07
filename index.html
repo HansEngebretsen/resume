@@ -5,8 +5,31 @@
   <title>Hans Engebretsen – Resume</title>
   <meta name="robots" content="noindex">
   <link rel="canonical" href="https://docs.google.com/document/d/1KFT-3GH1W_UgDtFvbEcLE3o1ne_23A-vlCC2K76jlkQ/preview">
-  <meta http-equiv="refresh" content="0; url=https://docs.google.com/document/d/1KFT-3GH1W_UgDtFvbEcLE3o1ne_23A-vlCC2K76jlkQ/preview">
-  <script>location.replace("https://docs.google.com/document/d/1KFT-3GH1W_UgDtFvbEcLE3o1ne_23A-vlCC2K76jlkQ/preview");</script>
+  <meta http-equiv="refresh" content="2; url=https://docs.google.com/document/d/1KFT-3GH1W_UgDtFvbEcLE3o1ne_23A-vlCC2K76jlkQ/preview">
+  <!-- Google Analytics: counts the visit, then redirects (after 800ms at most if Google doesn't answer) -->
+  <script>
+  (function () {
+    var left = false;
+    function leave() { if (!left) { left = true; location.replace("https://docs.google.com/document/d/1KFT-3GH1W_UgDtFvbEcLE3o1ne_23A-vlCC2K76jlkQ/preview"); } }
+    if (location.hostname !== 'haaans.com') return leave();
+    setTimeout(leave, 800);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag('js', new Date());
+    gtag('config', 'G-MGSJYZJ5YJ', {
+      content_group: 'resume',
+      page_location: location.origin + location.pathname,
+      page_referrer: document.referrer.split(/[?#]/)[0],
+      send_page_view: false
+    });
+    gtag('event', 'page_view', { send_to: 'G-MGSJYZJ5YJ', event_callback: leave, event_timeout: 700 });
+    var s = document.createElement('script');
+    s.async = true;
+    s.onerror = leave;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-MGSJYZJ5YJ';
+    document.head.appendChild(s);
+  })();
+  </script>
 </head>
 <body>
   <p>Redirecting to <a href="https://docs.google.com/document/d/1KFT-3GH1W_UgDtFvbEcLE3o1ne_23A-vlCC2K76jlkQ/preview">Hans Engebretsen's resume</a>…</p>
